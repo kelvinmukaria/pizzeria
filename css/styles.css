@@ -74,3 +74,33 @@ html {
     height: inherit;
     background-color: rgba(0, 0, 0, 0.7);
 }
+button[type=submit]{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+#s1,#s2,#s3,#s4,#s5{
+    border-radius: 18px;
+    background: #195440;
+    padding: 20px; 
+    width:500px;
+    height: 15px; 
+    color: white;   
+}
+#orders{
+    display: block;
+    text-align: center;
+}
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
