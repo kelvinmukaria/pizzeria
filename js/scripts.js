@@ -28,6 +28,11 @@ $(document).ready(function(){
        var total = getPizzaSize() + getPizzaTopping() + getPizzaFlavor() + getPizzaCrust() *getPizzaNumber();
        alert(
            "You have ordered " + getPizzaNumber("") + "and the total amount is " + totalAmount + "." + " It was a pleasure to serve and thank you for choosing Pizza Africana as your Outlet of choice. Thank you and welcome again!!! "
-       )
+       );
+
+    var location = prompt("If you want your pizza to be delivered to you please enter your location and if not ignore this message and press enter.");
+      if (location !== "") {
+         alert("You order will be delivered shortly.Delivery fee is 100/= . If  you preferred to eat in kindly come for your order.");
+       }    
    }
 });
