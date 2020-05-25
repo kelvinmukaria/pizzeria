@@ -27,7 +27,7 @@ $(document).ready(function(){
    function totalAmount(){
        var total = getPizzaSize() + getPizzaTopping() + getPizzaFlavor() + getPizzaCrust() *getPizzaNumber();
        alert(
-           "You have ordered " + getPizzaFlavor("")
+           "You have ordered " + getPizzaNumber("") + "and the total amount is " + totalAmount + "." + " It was a pleasure to serve and thank you for choosing Pizza Africana as your Outlet of choice. Thank you and welcome again!!! "
        )
    }
 });
