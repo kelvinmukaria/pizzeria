@@ -40,20 +40,14 @@ html {
     color: red !important;
 }
 
-.navlinks ul{
+.navbar-nav ul{
     list-style-type: none;
 }
-.navlinks li{
-    display: inline-block;
+.navbar-nav li{
+    display: inline;
     padding-left: 5px;
     padding-right: 5px;
+    margin: 35px;
 }
-body{
-    background-image: url("https://d1btgctt6xberu.cloudfront.net/uploads/PC0227_Updated_Web_Banners_750x375.jpg");
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 16px;
-    font-weight: 200;
-}
+
+;
