@@ -60,7 +60,7 @@ body{
     display: block;
 }
 .order{
-    color: white;
+    color: black;
 }
 #welcome{
     color: white;
@@ -71,6 +71,10 @@ body{
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
+}
+.carousel-slide img{
+    max-width: 100%;
+    height: auto;
 }
 .menu-overlay {
     width: 100%;
