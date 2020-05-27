@@ -7,9 +7,6 @@
         <meta name="HandheldFriendly" content="true">
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-
         <title>Pizzeria</title>
 
     </head>
@@ -90,7 +87,7 @@
             <div class="col-sm-8 order-overlay text-center">
                 <form class="col-sm-6 offset-sm-3 text-center">
                     <label>Pick preferred Pizza flavour</label>
-                    <select class="form-control" required id="s1">
+                    <select class="browser-default custom-select custom-select-md  mb-3 name">
                         <option value="1200" selected>Margherita Pizza @1200</option>
                         <option value="1200">Pepperoni Pizza @1200</option>
                         <option value="1250">BBQ Chicken Pizza @1250</option>
@@ -100,13 +97,13 @@
                         <option value="1220">Peppy Paneer Pizza @1220</option>
                     </select>
                     <label>Select preferred Pizza size</label>
-                    <select id="s2" class="form-control" required>
+                    <select id="s2"class="browser-default custom-select custom-select-md  mb-3 name">
                         <option value="600">Regular @600</option>
                         <option value="900">Medium @900</option>
                         <option value="1200">Large @1200</option>
                     </select>
                     <label>Select kind of Crust You'd like your pizza to have</label>
-                    <select id="s3" class="form-control" required>
+                    <select id="s3" class="browser-default custom-select custom-select-md  mb-3 name">
                         <option value="100">Thin Crust @ Ksh. 100</option>
                         <option value="150">Thick Crust @ Ksh. 150</option>
                         <option value="180">Deep Crust @ sh. 180</option>
@@ -114,7 +111,7 @@
                         <option value="300">Stuffed Crust @300</option>
                     </select>
                     <label>Select Preferred Topping</label>
-                    <select id="s4" class="form-control"   required>
+                    <select class="browser-default custom-select custom-select-md  mb-3 name">
                         <option value="80">Tomato @ sh. 80</option>
                         <option value="80">Mushroom @ sh. 80</option>
                         <option value="80">Green Pepper @ sh. 80</option>
@@ -125,7 +122,7 @@
                         <option value="200">Periperi Chicken @ sh. 200</option>
                     </select>
                     <label for="number">Select Number of Pizzas you'd like</label>
-                    <input id="s5" type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
                 </form>
                 <a href="">
                     <button type="submit" class="btn btn-success checkout" id="checkout" onclick="totalAmount()">Checkout</button>
@@ -133,6 +130,22 @@
             </div>
           </div>
      </div>
+     <div class="container-fluid">
+      <div id="formlocation">
+          <h3>For delivery services,enter your location details below</h3>
+          <form id="delivery">
+              <label for="name">Name</label>
+              <input class="form-control" type="text" name="" id="name" required="required">
+              <label for="location">Location</label>
+              <input class="form-control" type="text" id="location" placeholder="location...">
+              <label for="phonenumber">Phone Number</label>
+              <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
+              <button type="submit" name="button" id="submit">submit</button>
+          </form>
+      </div>
+  </div>
     <div class="order-summary"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
