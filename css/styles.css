@@ -68,6 +68,10 @@ body{
     margin-top: 20px;
     font-weight: 200;
 }
+#welcome p{
+    text-align: center;
+    font-weight: bold;
+}
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
@@ -75,6 +79,21 @@ body{
 .carousel-slide img{
     max-width: 100%;
     height: auto;
+}
+#menu{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.row ul{
+    list-style-type: none;
+}
+.card-title{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
 }
 .menu-overlay {
     width: 100%;
